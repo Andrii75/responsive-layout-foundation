@@ -1,4 +1,4 @@
-.action__button {
+.action__button{
     width: 160px;
     height: 48px;
     background-color: #3040C4;
@@ -7,4 +7,9 @@
     font-weight: 700;
     border-radius: 2px;
     border: none;
+}
+@media screen and (max-width:399px){
+    .headline__actions-btn {
+    width: 100%;
+}
 }
