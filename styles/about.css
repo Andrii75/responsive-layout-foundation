@@ -1,0 +1,24 @@
+.about {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    background-color:#F4F5F7;
+    padding: 77px 131px 76px 130px;
+    width: 100%;
+}
+.article {
+    width: 555px;
+
+}
+.article__title {
+    font-weight: 700;
+    line-height: 32px;
+    font-size: 22px;
+    margin: 0;
+}
+.article__text {
+    line-height: 32px;
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 6px;
+}
