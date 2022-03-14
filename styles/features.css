@@ -1,11 +1,12 @@
 .features {
-    display: flex;
+    visibility: hidden;
     position: relative;
 }
 
-@media screen and (max-width:400px) {
-    .features {
-        display: none;
+@media screen and (min-width:400px) {
+.features {
+    visibility: visible;
+    display: flex;
     }
 .features__content {
     width: 1140px;
