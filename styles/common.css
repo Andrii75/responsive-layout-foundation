@@ -1,4 +1,4 @@
-.action__button{
+.action__button {
     width: 160px;
     height: 48px;
     background-color: #3040C4;
@@ -8,8 +8,31 @@
     border-radius: 2px;
     border: none;
 }
-@media screen and (max-width:399px){
+
+@media screen and (max-width:399px) {
     .headline__actions-btn {
-    width: 100%;
+        width: 100%;
+    }
+
+    .additional-navigation {
+        flex-direction: column;
+    }
 }
+
+@media screen and (min-width:400px) {
+    .hide_desktop {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:399px) {
+    .hide_mobile {
+        display: none;
+    }
+
+    .logo__vertical {
+        display: flex;
+    }
+
 }
