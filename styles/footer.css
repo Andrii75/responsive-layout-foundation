@@ -169,11 +169,11 @@
 }
 
 .social-links {
-    margin-top: 30px;
+    margin-top: 17px;
 }
 
 .social-links__item {
-    margin-left: 15px;
+    margin-right: 20px;
 }
 
 .logo-vertical {
@@ -220,5 +220,21 @@
     .footer .logo {
         display: none;
 
+    }
+}
+
+@media screen and (min-width:400px) {
+    .footer__line {
+        margin: 0;
+    }
+
+    .footer-links {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .additional-navigation__column {
+        margin-top: 30px;
+        margin-left: 126px;
     }
 }
