@@ -1,34 +1,30 @@
 .features {
     display: none;
     position: relative;
-}
-
-@media screen and (min-width:400px) {
-    .features {
+    @include for-large-up {
         visibility: visible;
         display: flex;
     }
-
-    .features__content {
+    &__content {
         width: 1140px;
         display: flex;
         margin: auto;
     }
 
-    .features__column {
+    &__column {
         width: 459px;
     }
 
-    .features__subtitle {
+    &__subtitle {
         line-height: 34px;
         font-size: 22px;
         font-weight: 700;
-        color: #009B4D;
+        color: #009b4d;
         padding-bottom: 24px;
         margin: 0;
     }
 
-    .features__title {
+    &__title {
         line-height: 56px;
         font-size: 56px;
         font-weight: 700;
@@ -37,7 +33,7 @@
         margin: 0;
     }
 
-    .features__description {
+    &__description {
         margin-bottom: 0;
         margin-top: 30px;
         width: 461px;
@@ -45,52 +41,52 @@
         font-size: 24px;
     }
 
-    .features__advantage-header {
+    &__advantage-header {
         line-height: 42px;
         display: flex;
         margin-top: 42px;
     }
 
-    .features__advantage-title {
+    &__advantage-title {
         font-weight: 700;
         font-size: 22px;
         line-height: 26px;
-        color: #3142C6;
+        color: #3142c6;
         margin: 0;
         margin-left: 15px;
     }
 
-    .features__advantage-description {
+    &__advantage-description {
         font-size: 18px;
         line-height: 26px;
         width: 459px;
         margin: 0;
         margin-top: 8px;
-        border-bottom: 3px solid #3142C6;
+        border-bottom: 3px solid #3142c6;
         padding-bottom: 20px;
     }
 
-    .features__advantage-item {
-        border-bottom: 1px solid #2B292D26;
+    &__advantage-item {
+        border-bottom: 1px solid #2b292d26;
         margin-top: 21px;
         padding-bottom: 22px;
         display: flex;
     }
 
-    .features__advantage-item-text {
+    &__advantage-item-text {
         font-weight: 700;
         font-size: 22px;
         line-height: 26px;
         margin-left: 15px;
     }
 
-    .features__left-decoration {
+    &__left-decoration {
         height: 166px;
         position: absolute;
         top: 258px;
     }
 
-    .features__banner {
+    &__banner {
         position: absolute;
         right: 0;
         filter: drop-shadow(0px 4px 16px rgba(44, 50, 65, 0.08));
