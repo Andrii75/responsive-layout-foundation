@@ -1059,6 +1059,7 @@
   .audiences {
     width: 1400px;
     height: 983px;
+    margin-top: 110px;
   }
 }
 .audiences__description {
