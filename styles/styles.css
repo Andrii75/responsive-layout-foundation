@@ -1156,6 +1156,7 @@
   .audiences__image :hover {
     background-color: #3141c5;
     color: #fff;
+    cursor: pointer;
   }
 }
 .audiences__image-developers {
