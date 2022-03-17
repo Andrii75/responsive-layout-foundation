@@ -535,6 +535,7 @@
 }
 @media screen and (min-width: 1400px) {
   .logo__description {
+    display: block;
     font-size: 18px;
     line-height: 25px;
     color: #2b292d;
@@ -1046,6 +1047,229 @@
     margin-top: 10px;
     display: block;
   }
+}
+
+.audiences {
+  width: 320px;
+  height: 1808px;
+  margin: 0;
+  background-color: rgba(0, 161, 198, 0.07);
+}
+@media screen and (min-width: 1400px) {
+  .audiences {
+    width: 1400px;
+    height: 983px;
+  }
+}
+.audiences__description {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+@media screen and (min-width: 1400px) {
+  .audiences__description {
+    display: flex;
+    flex-direction: column;
+    width: 555px;
+    margin: 0;
+    margin-left: 422px;
+  }
+}
+.audiences__subtitle {
+  margin: 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+  text-align: center;
+}
+@media screen and (min-width: 1400px) {
+  .audiences__subtitle {
+    margin-top: 108px;
+  }
+}
+.audiences__title {
+  margin: 0;
+  margin-top: 17px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.357143px;
+}
+@media screen and (min-width: 1400px) {
+  .audiences__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    height: 112px;
+  }
+}
+.audiences__info {
+  margin: 0;
+  margin-top: 18px;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+}
+@media screen and (min-width: 1400px) {
+  .audiences__info {
+    margin: 0;
+    margin-top: 30px;
+  }
+}
+.audiences__button .action__button {
+  width: 100%;
+  margin-top: 30px;
+}
+@media screen and (min-width: 1400px) {
+  .audiences__button .action__button {
+    height: 48px;
+    width: 160px;
+    border-radius: 2px;
+  }
+}
+.audiences__button .headline__learn-more-btn {
+  width: 100%;
+  margin: 0;
+  margin-top: 12px;
+}
+@media screen and (min-width: 1400px) {
+  .audiences__button .headline__learn-more-btn {
+    height: 48px;
+    width: 158px;
+    left: 0px;
+    top: 0px;
+    border-radius: 2px;
+  }
+}
+.audiences__image {
+  margin: 0;
+  margin-left: 15px;
+  margin-top: 40px;
+}
+@media screen and (min-width: 1400px) {
+  .audiences__image {
+    display: flex;
+  }
+}
+.audiences__image-developers {
+  width: 290px;
+  height: 300px;
+  left: 15px;
+  top: 7324px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
+  background-blend-mode: overlay, normal;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+@media screen and (min-width: 1400px) {
+  .audiences__image-developers {
+    margin: 0;
+    margin-left: 130px;
+    height: 300px;
+    width: 262px;
+    border-radius: 8px;
+  }
+}
+.audiences__image-first {
+  width: 138px;
+  height: 195px;
+  margin: 0;
+  margin-left: 76px;
+  margin-top: 22px;
+}
+.audiences__image-caption {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0;
+  margin-top: 22px;
+}
+.audiences__image-entertainment {
+  width: 290px;
+  height: 300px;
+  background: #3141c5;
+  box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
+  border-radius: 8px;
+  margin-top: 15px;
+}
+@media screen and (min-width: 1400px) {
+  .audiences__image-entertainment {
+    margin: 0;
+    margin-left: 30px;
+    height: 300px;
+    width: 262px;
+    border-radius: 8px;
+  }
+}
+.audiences__image-second {
+  width: 142px;
+  height: 195px;
+  margin: 0;
+  margin-left: 74px;
+  margin-top: 22px;
+}
+.audiences__image-caption-white {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  margin-top: 22px;
+}
+.audiences__image-athletes {
+  width: 290px;
+  height: 300px;
+  margin-top: 15px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
+  background-blend-mode: overlay, normal;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+@media screen and (min-width: 1400px) {
+  .audiences__image-athletes {
+    margin: 0;
+    margin-left: 30px;
+    height: 300px;
+    width: 262px;
+    border-radius: 8px;
+  }
+}
+.audiences__image-third {
+  width: 160px;
+  height: 195px;
+  margin-top: 22px;
+  margin-left: 65px;
+}
+.audiences__image-creators {
+  width: 290px;
+  height: 300px;
+  left: 15px;
+  top: 8269px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
+  background-blend-mode: overlay, normal;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  margin-top: 15px;
+}
+@media screen and (min-width: 1400px) {
+  .audiences__image-creators {
+    margin: 0;
+    margin-left: 30px;
+    height: 300px;
+    width: 262px;
+    border-radius: 8px;
+  }
+}
+.audiences__image-four {
+  width: 119px;
+  height: 195px;
+  margin: 0;
+  margin-top: 22px;
+  margin-left: 80px;
 }
 
 * {
