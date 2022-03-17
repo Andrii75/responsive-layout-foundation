@@ -1404,6 +1404,174 @@
   }
 }
 
+.hiring {
+  margin: 0;
+  margin-top: 50px;
+}
+@media screen and (min-width: 1400px) {
+  .hiring {
+    margin: 0;
+  }
+}
+.hiring__description-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.357143px;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__description-title {
+    margin: 0;
+    margin-top: 106px;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+  }
+}
+.hiring__description-info {
+  margin: 0;
+  margin-top: 18px;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__description-info {
+    width: 555px;
+    height: 72px;
+    margin-left: 422px;
+    margin-top: 20px;
+  }
+}
+.hiring .action__button {
+  margin: 0;
+  margin-left: 15px;
+  margin-top: 30px;
+  width: 290px;
+  height: 48px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #3040c4;
+  background-blend-mode: overlay, normal;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+}
+@media screen and (min-width: 1400px) {
+  .hiring .action__button {
+    margin-top: 28px;
+    width: 247px;
+    height: 48px;
+    margin-left: 577px;
+  }
+}
+.hiring__section {
+  margin: 0;
+  margin-top: 39px;
+  position: relative;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__section {
+    margin-left: 325px;
+  }
+  .hiring__section :hover {
+    background: #3141c5;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+  }
+}
+.hiring__section-item {
+  width: 290px;
+  height: 140px;
+  margin: 15px 15px 0 15px;
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__section-item {
+    display: flex;
+    width: 750px;
+    height: 81px;
+  }
+}
+.hiring__section-title {
+  margin: 0;
+  margin-top: 19px;
+  margin-left: 20px;
+  width: 200px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__section-title {
+    width: 408px;
+    height: 29px;
+    margin: 0;
+    margin-top: 26px;
+    margin-left: 25px;
+  }
+}
+.hiring__section-info {
+  margin: 0;
+  margin-left: 20px;
+  margin-top: 7px;
+  width: 200px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2b292d;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__section-info {
+    margin: 0;
+    margin-top: 28px;
+    margin-left: 20px;
+    width: 232px;
+    height: 26px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+.hiring__section-image {
+  margin: 0;
+  margin-left: 240px;
+  margin-top: -110px;
+  position: absolute;
+  width: 50px;
+  height: 140px;
+  background: #d5d4d5;
+  border-radius: 0px 8px 8px 0px;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__section-image {
+    margin: 0;
+    opacity: 0.6;
+    width: 8px;
+    height: 12px;
+    margin-left: 698px;
+    border: none;
+    background: none;
+  }
+}
+.hiring__section-icon {
+  margin-left: 21px;
+  margin-top: 64px;
+  width: 7px;
+  height: 12px;
+  opacity: 0.6;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__section-icon {
+    margin: 0;
+    margin-right: 25px;
+    margin-top: 35px;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
