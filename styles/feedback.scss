@@ -1,0 +1,110 @@
+.feedback {
+    margin: 0;
+    border-bottom: 1px solid #e3e3e3;
+    @include for-large-up {
+        width: 1400px;
+        position: relative;
+    }
+    & .customers {
+        padding-bottom: 76px;
+    }
+    &__description-title {
+        margin: 0;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 39px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        color: #3142c6;
+        width: 290px;
+        height: 120px;
+        @include for-large-up {
+            margin: 0;
+            margin-left: 130px;
+            margin-top: 0px;
+            width: 1140px;
+            height: 30px;
+            text-align: center;
+        }
+    }
+    &__description-info {
+        margin: 29px 15px 0 15px;
+        font-size: 24px;
+        line-height: 34px;
+        @include for-large-up {
+            margin: 0;
+            margin-top: 28px;
+            margin-left: 325px;
+            width: 750px;
+            height: 102px;
+            text-align: center;
+        }
+    }
+    &__description .user__info {
+        margin: 0;
+        margin: 32px 15px 0 15px;
+        width: 290px;
+        height: 48px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        @include for-large-up {
+            margin: 0;
+            margin-top: 34px;
+            margin-left: 588px;
+            width: 225px;
+            text-align: center;
+        }
+    }
+    &__description .user__description {
+        font-weight: 400;
+    }
+    &__oval {
+        display: flex;
+        margin: 0;
+        margin-top: 40px;
+        margin-left: 123px;
+        @include for-large-up {
+            margin: 0;
+            margin-top: 38px;
+            margin-left: 675px;
+            padding-bottom: 66px;
+        }
+    }
+    &__oval-blue {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: #3142c5;
+        @include for-large-up {
+            width: 8px;
+            height: 8px;
+        }
+    }
+    &__oval-grey {
+        border-radius: 50%;
+        margin-left: 19px;
+        width: 12px;
+        height: 12px;
+        background-color: #2b292d;
+        opacity: 0.2;
+        @include for-large-up {
+            margin: 0;
+            margin-left: 13px;
+            width: 8px;
+            height: 8px;
+        }
+    }
+    &__image {
+        margin: 40px 15px 50px 15px;
+        @include for-large-up {
+            position: absolute;
+            margin: 0;
+            margin-top: -257px;
+            margin-left: 1101px;
+            width: 273px;
+            height: 243px;
+        }
+    }
+}
