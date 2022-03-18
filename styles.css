@@ -921,6 +921,11 @@
   font-size: 16px;
   line-height: 22px;
 }
+@media screen and (min-width: 1400px) {
+  .user__name {
+    width: 225px;
+  }
+}
 
 .user__description {
   font-size: 16px;
