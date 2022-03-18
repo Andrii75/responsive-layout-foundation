@@ -15,4 +15,4 @@ Used technologies
 
 Page available via [link](https://andrii75.github.io/responsive-layout-foundation/)
 
-Developed by [Andrii Cholii]
+Developed by [Andrii Cholii] (https://github.com/Andrii75)
