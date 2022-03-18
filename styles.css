@@ -746,11 +746,19 @@
 }
 .inbox__image {
   margin: auto;
-  max-width: 100%;
 }
 @media screen and (min-width: 1400px) {
   .inbox__image {
     margin-top: 142px;
+  }
+}
+.inbox__image-wheel {
+  margin: 0;
+  width: 290px;
+}
+@media screen and (min-width: 1400px) {
+  .inbox__image-wheel {
+    max-width: 100%;
   }
 }
 .inbox__image-caption {
@@ -1004,7 +1012,6 @@
 }
 .communication__image-item {
   height: 291px;
-  width: 350px;
 }
 @media screen and (min-width: 1400px) {
   .communication__image-item {
@@ -1671,7 +1678,7 @@
     margin-top: 26px;
     width: 385px;
     text-align: left;
-    padding: 0;
+    padding: 15px;
   }
 }
 .order__button {

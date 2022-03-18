@@ -73,7 +73,6 @@
     }
     &__image-item {
         height: 291px;
-        width: 350px;
         @include for-large-up {
             width: 425px;
             height: 426px;
