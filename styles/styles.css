@@ -39,6 +39,20 @@
   }
 }
 
+.hiring__section-icon-white {
+  display: block;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png);
+  width: 7.41px;
+  height: 12px;
+  margin-left: 20px;
+  margin-top: -16px;
+}
+@media screen and (max-width: 1399px) {
+  .hiring__section-icon-white {
+    display: none;
+  }
+}
+
 .about {
   padding: 46px 15px;
   width: 100%;
@@ -1058,7 +1072,7 @@
 @media screen and (min-width: 1400px) {
   .audiences {
     width: 1400px;
-    height: 983px;
+    height: 880px;
     margin-top: 110px;
   }
 }
@@ -1433,6 +1447,8 @@
 .hiring__description-info {
   margin: 0;
   margin-top: 18px;
+  margin-left: 15px;
+  margin-right: 15px;
   font-size: 24px;
   line-height: 34px;
   text-align: center;
@@ -1476,7 +1492,6 @@
   .hiring__section :hover {
     background: #3141c5;
     border-radius: 8px;
-    color: white;
     cursor: pointer;
   }
 }
@@ -1487,6 +1502,8 @@
   border: 1px solid rgba(43, 41, 45, 0.2);
   box-sizing: border-box;
   border-radius: 8px;
+  width: 290px;
+  height: 140px;
 }
 @media screen and (min-width: 1400px) {
   .hiring__section-item {
@@ -1527,19 +1544,18 @@
 }
 @media screen and (min-width: 1400px) {
   .hiring__section-info {
-    margin: 0;
     margin-top: 28px;
-    margin-left: 20px;
-    width: 232px;
-    height: 26px;
     font-size: 18px;
     line-height: 24px;
+    color: #2b292d;
+    mix-blend-mode: normal;
+    opacity: 0.6;
   }
 }
 .hiring__section-image {
   margin: 0;
   margin-left: 240px;
-  margin-top: -110px;
+  margin-top: -109px;
   position: absolute;
   width: 50px;
   height: 140px;
@@ -1570,6 +1586,119 @@
     margin-right: 25px;
     margin-top: 35px;
   }
+}
+.hiring__section-icon__section-icon-white {
+  height: 12px;
+  width: 7.4px;
+}
+.order {
+  padding: 50px 15px;
+  background-color: #f4f5f7;
+}
+@media screen and (min-width: 1400px) {
+  .order {
+    padding: 73px 0 72px 0;
+    display: flex;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .order__details {
+    max-width: 580px;
+  }
+}
+.order__image {
+  max-width: 200px;
+  margin-left: 60px;
+}
+@media screen and (min-width: 1400px) {
+  .order__image {
+    margin: 0;
+    margin-left: 224px;
+    max-width: 269px;
+    margin-right: 121px;
+    height: 296px;
+  }
+}
+.order__title {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.25px;
+  width: 290px;
+}
+@media screen and (min-width: 1400px) {
+  .order__title {
+    text-align: left;
+    width: 555px;
+  }
+}
+.order__text {
+  font-size: 22px;
+  line-height: 32px;
+  width: 290px;
+  height: 167px;
+  margin: 0;
+  margin-top: 18px;
+}
+@media screen and (min-width: 1400px) {
+  .order__text {
+    width: 555px;
+    margin: 0;
+    margin-top: 12px;
+    height: 64px;
+  }
+}
+.order__email {
+  margin-top: 40px;
+  background: #ffffff;
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: 290px;
+  height: 48px;
+  text-align: center;
+}
+.order__email::placeholder {
+  color: #2b292d;
+}
+@media screen and (min-width: 1400px) {
+  .order__email {
+    margin: 0;
+    margin-top: 26px;
+    width: 385px;
+    text-align: left;
+    padding: 0;
+  }
+}
+.order__button {
+  margin-top: 12px;
+  width: 290px;
+}
+@media screen and (min-width: 1400px) {
+  .order__button {
+    width: 160px;
+    padding: 0;
+    margin-left: 2px;
+  }
+}
+.order__terms {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(43, 41, 45, 0.6);
+  width: 290px;
+  height: 44px;
+}
+@media screen and (min-width: 1400px) {
+  .order__terms {
+    width: 495px;
+  }
+}
+.order__terms-link {
+  color: #3142c6;
 }
 
 * {

@@ -35,3 +35,14 @@
         display: flex;
     }
 }
+.hiring__section-icon-white {
+    display: block;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png);
+    width: 7.41px;
+    height: 12px;
+    margin-left: 20px;
+    margin-top: -16px;
+    @include for-large-down {
+        display: none;
+    }
+}
