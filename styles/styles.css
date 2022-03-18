@@ -44,8 +44,9 @@
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png);
   width: 7.41px;
   height: 12px;
-  margin-left: 20px;
+  margin-left: 1px;
   margin-top: -16px;
+  color: #fff;
 }
 @media screen and (max-width: 1399px) {
   .hiring__section-icon-white {
@@ -1493,6 +1494,7 @@
     background: #3141c5;
     border-radius: 8px;
     cursor: pointer;
+    color: #fff;
   }
 }
 .hiring__section-item {
